@@ -1,7 +1,7 @@
 def get_user_input():
-    name = input("Enter your username: ")
-    length = float(input("Enter rectangle length: "))
-    width = float(input("Enter rectangle width: "))
+    name = input("Enter username: ")
+    length = float(input("Enter rectangle Length: "))
+    width = float(input("Enter rectangle Width: "))
     return name, length, width
 
 def calculate_area(length, width):
