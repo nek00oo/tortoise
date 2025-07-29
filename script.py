@@ -10,4 +10,5 @@ def calculate_area(length, width):
 if __name__ == "__main__":
     print("2")
     user_name, user_length, user_width = get_user_input()
+    print("3")
     print("Area of rectangle:", calculate_area(user_length, user_width))
